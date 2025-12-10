@@ -8,7 +8,7 @@ const FormulaComponent = ({ content, onUpdate, onDelete, isFocused }) => {
     setValue(newValue);
     if (onUpdate) onUpdate(newValue);
   };
-  
+
   return (
     <div 
       className={`formula-component ${isFocused ? 'focused' : ''}`}
